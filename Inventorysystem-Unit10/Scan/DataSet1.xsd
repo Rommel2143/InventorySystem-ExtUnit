@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet1" targetNamespace="http://tempuri.org/DataSet1.xsd" xmlns:mstns="http://tempuri.org/DataSet1.xsd" xmlns="http://tempuri.org/DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSet1" msprop:Generator_UserDSName="DataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="unit10_tblscan" msprop:Generator_TableClassName="unit10_tblscanDataTable" msprop:Generator_TableVarName="tableunit10_tblscan" msprop:Generator_TablePropName="unit10_tblscan" msprop:Generator_RowDeletingName="unit10_tblscanRowDeleting" msprop:Generator_RowChangingName="unit10_tblscanRowChanging" msprop:Generator_RowEvHandlerName="unit10_tblscanRowChangeEventHandler" msprop:Generator_RowDeletedName="unit10_tblscanRowDeleted" msprop:Generator_UserTableName="unit10_tblscan" msprop:Generator_RowChangedName="unit10_tblscanRowChanged" msprop:Generator_RowEvArgName="unit10_tblscanRowChangeEvent" msprop:Generator_RowClassName="unit10_tblscanRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" msprop:Generator_ColumnVarNameInTable="columnid" msprop:Generator_ColumnPropNameInRow="id" msprop:Generator_ColumnPropNameInTable="idColumn" msprop:Generator_UserColumnName="id" type="xs:string" />
+              <xs:element name="status" msprop:Generator_ColumnVarNameInTable="columnstatus" msprop:Generator_ColumnPropNameInRow="status" msprop:Generator_ColumnPropNameInTable="statusColumn" msprop:Generator_UserColumnName="status" type="xs:string" minOccurs="0" />
+              <xs:element name="batch" msprop:Generator_ColumnVarNameInTable="columnbatch" msprop:Generator_ColumnPropNameInRow="batch" msprop:Generator_ColumnPropNameInTable="batchColumn" msprop:Generator_UserColumnName="batch" type="xs:string" minOccurs="0" />
+              <xs:element name="partcode" msprop:Generator_ColumnVarNameInTable="columnpartcode" msprop:Generator_ColumnPropNameInRow="partcode" msprop:Generator_ColumnPropNameInTable="partcodeColumn" msprop:Generator_UserColumnName="partcode" type="xs:string" minOccurs="0" />
+              <xs:element name="lotnumber" msprop:Generator_ColumnVarNameInTable="columnlotnumber" msprop:Generator_ColumnPropNameInRow="lotnumber" msprop:Generator_ColumnPropNameInTable="lotnumberColumn" msprop:Generator_UserColumnName="lotnumber" type="xs:string" minOccurs="0" />
+              <xs:element name="remarks" msprop:Generator_ColumnVarNameInTable="columnremarks" msprop:Generator_ColumnPropNameInRow="remarks" msprop:Generator_ColumnPropNameInTable="remarksColumn" msprop:Generator_UserColumnName="remarks" type="xs:string" minOccurs="0" />
+              <xs:element name="qty" msprop:Generator_ColumnVarNameInTable="columnqty" msprop:Generator_ColumnPropNameInRow="qty" msprop:Generator_ColumnPropNameInTable="qtyColumn" msprop:Generator_UserColumnName="qty" type="xs:int" minOccurs="0" />
+              <xs:element name="batchout" msprop:Generator_ColumnVarNameInTable="columnbatchout" msprop:Generator_ColumnPropNameInRow="batchout" msprop:Generator_ColumnPropNameInTable="batchoutColumn" msprop:Generator_UserColumnName="batchout" type="xs:string" minOccurs="0" />
+              <xs:element name="dateout" msprop:Generator_ColumnVarNameInTable="columndateout" msprop:Generator_ColumnPropNameInRow="dateout" msprop:Generator_ColumnPropNameInTable="dateoutColumn" msprop:Generator_UserColumnName="dateout" type="xs:string" minOccurs="0" />
+              <xs:element name="userout" msprop:Generator_ColumnVarNameInTable="columnuserout" msprop:Generator_ColumnPropNameInRow="userout" msprop:Generator_ColumnPropNameInTable="useroutColumn" msprop:Generator_UserColumnName="userout" type="xs:string" minOccurs="0" />
+              <xs:element name="located" msprop:Generator_ColumnVarNameInTable="columnlocated" msprop:Generator_ColumnPropNameInRow="located" msprop:Generator_ColumnPropNameInTable="locatedColumn" msprop:Generator_UserColumnName="located" type="xs:string" minOccurs="0" />
+              <xs:element name="boxno" msprop:Generator_ColumnVarNameInTable="columnboxno" msprop:Generator_ColumnPropNameInRow="boxno" msprop:Generator_ColumnPropNameInTable="boxnoColumn" msprop:Generator_UserColumnName="boxno" type="xs:string" minOccurs="0" />
+              <xs:element name="fullname" msprop:Generator_ColumnVarNameInTable="columnfullname" msprop:Generator_ColumnPropNameInRow="fullname" msprop:Generator_ColumnPropNameInTable="fullnameColumn" msprop:Generator_UserColumnName="fullname" type="xs:string" minOccurs="0" />
+              <xs:element name="partname" msprop:Generator_ColumnVarNameInTable="columnpartname" msprop:Generator_ColumnPropNameInRow="partname" msprop:Generator_ColumnPropNameInTable="partnameColumn" msprop:Generator_UserColumnName="partname" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:unit10_tblscan" />
+      <xs:field xpath="mstns:id" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>
