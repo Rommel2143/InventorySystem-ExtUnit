@@ -36,8 +36,8 @@ Partial Class sub_FRAME
         Me.QRCheckerToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.QRCheckerToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
         Me.StockMonitoringToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.btn_manage = New System.Windows.Forms.ToolStripMenuItem()
         Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.ManageToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -45,7 +45,7 @@ Partial Class sub_FRAME
         '
         Me.MenuStrip1.AutoSize = False
         Me.MenuStrip1.Font = New System.Drawing.Font("Century Gothic", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.MasterlistToolStripMenuItem, Me.userstrip, Me.QRCheckerToolStripMenuItem, Me.ManageToolStripMenuItem})
+        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.MasterlistToolStripMenuItem, Me.userstrip, Me.QRCheckerToolStripMenuItem, Me.btn_manage})
         Me.MenuStrip1.LayoutStyle = System.Windows.Forms.ToolStripLayoutStyle.HorizontalStackWithOverflow
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
@@ -64,21 +64,21 @@ Partial Class sub_FRAME
         '
         Me.PARTSToolStripMenuItem.Image = CType(resources.GetObject("PARTSToolStripMenuItem.Image"), System.Drawing.Image)
         Me.PARTSToolStripMenuItem.Name = "PARTSToolStripMenuItem"
-        Me.PARTSToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.PARTSToolStripMenuItem.Size = New System.Drawing.Size(129, 22)
         Me.PARTSToolStripMenuItem.Text = "IN"
         '
         'FGToolStripMenuItem
         '
         Me.FGToolStripMenuItem.Image = CType(resources.GetObject("FGToolStripMenuItem.Image"), System.Drawing.Image)
         Me.FGToolStripMenuItem.Name = "FGToolStripMenuItem"
-        Me.FGToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.FGToolStripMenuItem.Size = New System.Drawing.Size(129, 22)
         Me.FGToolStripMenuItem.Text = "OUT"
         '
         'RETURNToolStripMenuItem
         '
         Me.RETURNToolStripMenuItem.Image = CType(resources.GetObject("RETURNToolStripMenuItem.Image"), System.Drawing.Image)
         Me.RETURNToolStripMenuItem.Name = "RETURNToolStripMenuItem"
-        Me.RETURNToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.RETURNToolStripMenuItem.Size = New System.Drawing.Size(129, 22)
         Me.RETURNToolStripMenuItem.Text = "RETURN"
         '
         'userstrip
@@ -151,6 +151,13 @@ Partial Class sub_FRAME
         Me.StockMonitoringToolStripMenuItem.Size = New System.Drawing.Size(200, 22)
         Me.StockMonitoringToolStripMenuItem.Text = "Stock Monitoring"
         '
+        'btn_manage
+        '
+        Me.btn_manage.Image = CType(resources.GetObject("btn_manage.Image"), System.Drawing.Image)
+        Me.btn_manage.Name = "btn_manage"
+        Me.btn_manage.Size = New System.Drawing.Size(99, 37)
+        Me.btn_manage.Text = "Manage"
+        '
         'Panel1
         '
         Me.Panel1.Dock = System.Windows.Forms.DockStyle.Fill
@@ -158,13 +165,6 @@ Partial Class sub_FRAME
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(1208, 636)
         Me.Panel1.TabIndex = 12
-        '
-        'ManageToolStripMenuItem
-        '
-        Me.ManageToolStripMenuItem.Image = CType(resources.GetObject("ManageToolStripMenuItem.Image"), System.Drawing.Image)
-        Me.ManageToolStripMenuItem.Name = "ManageToolStripMenuItem"
-        Me.ManageToolStripMenuItem.Size = New System.Drawing.Size(99, 37)
-        Me.ManageToolStripMenuItem.Text = "Manage"
         '
         'sub_FRAME
         '
@@ -197,5 +197,5 @@ Partial Class sub_FRAME
     Friend WithEvents QRCheckerToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents QRCheckerToolStripMenuItem1 As ToolStripMenuItem
     Friend WithEvents StockMonitoringToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents ManageToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents btn_manage As ToolStripMenuItem
 End Class

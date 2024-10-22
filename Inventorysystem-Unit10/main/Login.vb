@@ -59,6 +59,17 @@ Public Class Login
                 If dr.Read = True Then
                     fname = dr("fullname").ToString
                     idno = dr("IDno").ToString
+                    Select Case dr.GetInt32("status")
+                        Case 0
+                            sub_FRAME.btn_manage.Visible = False
+
+
+                        Case 1
+                            sub_FRAME.btn_manage.Visible = True
+                    End Select
+
+
+
 
                     display_form(sub_FRAME)
                         sub_FRAME.userstrip.Text = fname
